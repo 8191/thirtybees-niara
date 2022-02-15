@@ -1,7 +1,8 @@
 {if $is_logged}
   <li id="blockuserinfo-customer" class="blockuserinfo">
     <a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">
-      <span>{$cookie->customer_firstname} {$cookie->customer_lastname}</span>
+      <span class="hidden-md hidden-sm hidden-xs">{$cookie->customer_firstname} {$cookie->customer_lastname}</span>
+      <span class="hidden-lg">{l s='Myself' mod='blockuserinfo'}</span>
     </a>
   </li>
 {/if}

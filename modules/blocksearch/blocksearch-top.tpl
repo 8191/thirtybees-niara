@@ -1,4 +1,4 @@
-<div id="search_block_top" class="col-sm-4 col-md-5 col-xs-7" role="search">
+<li id="search_block_top" role="search">
   <form id="searchbox" method="get" action="{$link->getPageLink('search', null, null, null, false, null, true)|escape:'html':'UTF-8'}" >
     <input type="hidden" name="controller" value="search">
     <input type="hidden" name="orderby" value="position">
@@ -10,4 +10,4 @@
       </span>
     </div>
   </form>
-</div>
+</li>

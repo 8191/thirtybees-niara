@@ -81,16 +81,15 @@
   text-transform: uppercase;
   color: #121212;
   display: block;
-  padding: 10px 20px;
-  letter-spacing: 3px;
+  padding: 10px 20px 0 0;
 }
 
 .sf-menu > li.sfHover > a,
 .sf-menu > li > a:hover,
 .sf-menu > li.sfHoverForce > a {
-  background: #333;
-  border-bottom-color: #666666;
-  color: #fff;
+  /*background: #333;
+  border-bottom-color: #666666;*/
+  color: #7c9837;
 }
 
 .sf-menu li li li a {

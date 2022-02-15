@@ -9,7 +9,7 @@
 
   <li id="blocklanguages" class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-      {$current_iso|escape:'html':'UTF-8'} <span class="caret"></span>
+      <img src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code|escape:'html':'UTF-8'}" width="16" height="11" /> <span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
       {foreach from=$languages key=k item=language name="languages"}
@@ -19,11 +19,11 @@
 
           {if isset($lang_rewrite_urls.$indice_lang)}
             <a href="{$lang_rewrite_urls.$indice_lang|escape:'html':'UTF-8'}" title="{$language.name|escape:'html':'UTF-8'}" rel="alternate" hreflang="{$language.iso_code|escape:'html':'UTF-8'}">
-              <span>{$language.name|regex_replace:"/\s\(.*\)$/":""}</span>
+              <span><img src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code|escape:'html':'UTF-8'}" width="16" height="11" /> {$language.name|regex_replace:"/\s\(.*\)$/":""}</span>
             </a>
           {else}
             <a href="{$link->getLanguageLink($language.id_lang)|escape:'html':'UTF-8'}" title="{$language.name|escape:'html':'UTF-8'}" rel="alternate" hreflang="{$language.iso_code|escape:'html':'UTF-8'}">
-              <span>{$language.name|regex_replace:"/\s\(.*\)$/":""}</span>
+              <span><img src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code|escape:'html':'UTF-8'}" width="16" height="11" /> {$language.name|regex_replace:"/\s\(.*\)$/":""}</span>
             </a>
           {/if}
 

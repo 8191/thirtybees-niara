@@ -1,12 +1,15 @@
 #blockcart {
   position: relative;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   text-align: right;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   #blockcart {
     margin-top: 15px;
+  }
+  #blockcart-dropdown {
+    width: 20em;
   }
 }
 
@@ -14,11 +17,17 @@
   #blockcart {
     margin-top: 10px;
   }
-}
+  #blockcart-dropdown {
+    width: 20em;
+  }
+}*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  #blockcart {
+  /*#blockcart {
     margin-top: 20px;
+  }*/
+  #blockcart-dropdown {
+    width: 20em;
   }
 }
 
@@ -64,7 +73,7 @@
 #blockcart-header .ajax_cart_quantity {
   position: absolute;
   top: 0;
-  right: 38px;
+  /*right: 38px;*/
   display: block !important;
   min-width: 20px;
   min-height: 20px;
@@ -79,7 +88,9 @@
   position: absolute;
   z-index: 4;
   background: #fff;
-  width: 100%;
+  /*width: 100%;*/
+  width: 20em;
+  right: 0;
   border-top: none;
   padding: 10px;
   text-align: left;

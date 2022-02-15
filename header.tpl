@@ -91,26 +91,6 @@
         </div>
     {/if}
 
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar" id="header-navbar">
-                {* {capture name='displayHeaderNavbarLeftNav'}{hook h='displayHeaderNavbarLeftNav'}{/capture}
-                {if $smarty.capture.displayHeaderNavbarLeftNav}
-                  <ul id="header-navbar-left-nav" class="nav navbar-nav">
-                    {$smarty.capture.displayHeaderNavbarLeftNav}
-                  </ul>
-                {/if} *}
-                {* hook h='displayHeaderNavbar' *}
-                {capture name='displayNav'}{hook h='displayNav'}{/capture}
-                {if $smarty.capture.displayNav}
-                    <ul id="header-navbar-right-nav" class="nav navbar-nav navbar-right">
-                        {$smarty.capture.displayNav}
-                    </ul>
-                {/if}
-            </div>
-        </div>
-    </nav>
-
     <div id="header-blocks" class="container">
         <div class="row">
             <div id="shop-logo" class="col-sm-4">
@@ -120,7 +100,20 @@
                          title="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}>
                 </a>
             </div>
-            {if !empty($HOOK_TOP)}{$HOOK_TOP}{/if}
+            <div class="col-md-1"></div>
+            <div id="top-nav" class="col-sm-8 col-md-7">
+                <nav class="navbar">
+                    <div class="navbar" id="header-navbar">
+                        {capture name='displayNav'}{hook h='displayNav'}{/capture}
+                        {if $smarty.capture.displayNav}
+                            <ul id="header-navbar-right-nav" class="nav navbar-nav navbar-right">
+                                {$smarty.capture.displayNav}
+                            </ul>
+                        {/if}
+                    </div>
+                </nav>
+                {if !empty($HOOK_TOP)}{$HOOK_TOP}{/if}
+            </div>
         </div>
     </div>
 

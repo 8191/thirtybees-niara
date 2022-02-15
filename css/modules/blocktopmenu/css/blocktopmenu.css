@@ -1,8 +1,16 @@
-#index #block_top_menu {
+/*#index #block_top_menu {
   padding-bottom: 0;
-}
+}*/
 
 #block_top_menu {
   padding-top: 25px;
-  padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  #block_top_menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: 0;
+  }
 }
