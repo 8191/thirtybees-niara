@@ -352,6 +352,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  text-align: center; /* MFX: Align images on manufacturer list */
 }
 
 .img-rounded {
@@ -2096,7 +2097,7 @@ input[type="search"] {
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-left: -20px;
-  margin-top: 4px \9;
+  margin-top: 4px;
 }
 
 .radio + .radio,
@@ -3951,18 +3952,16 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
-  .navbar-nav {
-    float: left;
+.navbar-nav {
+  float: left;
     margin: 0;
-  }
-  .navbar-nav > li {
-    float: left;
-  }
-  .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .navbar-form {
@@ -4090,17 +4089,15 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
-  .navbar-left {
-    float: left !important;
-  }
-  .navbar-right {
-    float: right !important;
-    margin-right: -15px;
-  }
-  .navbar-right ~ .navbar-right {
-    margin-right: 0;
-  }
+.navbar-left {
+  float: left !important;
+}
+.navbar-right {
+  float: right !important;
+  margin-right: -15px;
+}
+.navbar-right ~ .navbar-right {
+  margin-right: 0;
 }
 
 .navbar-default {
@@ -9916,6 +9913,19 @@ ul.list-grid > li {
     width: 100%;
     margin-bottom: 10px;
   }
+
+  /* Colombian flag border */
+  ul.list-grid.product_list > li {
+    background-image: linear-gradient(to right, rgba(255,210,3) 50%, rgba(0,52,148) 50.0001%, rgba(0,52,148) 75%, rgba(240,8,34) 75.0001%);
+    background-size: auto 1px;
+    background-position: 0% 0%;
+    background-repeat: repeat-x;
+    background-color: white;
+    padding-top: 1px;
+  }
+  ul.list-grid.product_list > li:first-child {
+    background: none;
+  }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
@@ -10093,7 +10103,8 @@ p.required {
   text-align: center;
 }
 
-.delivery_option_price {
+/* Unify price column on select shipment method during checkout */
+td.delivery_option_price {
   width: 20%;
 }
 

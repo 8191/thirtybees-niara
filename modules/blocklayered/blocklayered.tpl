@@ -2,8 +2,8 @@
     <section>
         <nav>
             <div id="layered_block_left" class="block">
-                <h2 class="title_block section-title-column">{l s='Catalog' mod='blocklayered'}</h2>
-                <div class="block_content">
+                <h2 class="title_block section-title-column" data-toggle="collapse" data-target="#layered_block_left&gt;div.block_content">{l s='Catalog' mod='blocklayered'}</h2>
+                <div class="block_content collapse">
                     <form action="#" id="layered_form">
                         <div>
                             {if isset($selected_filters) && $n_filters > 0}

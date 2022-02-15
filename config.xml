@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme version="1.1.0" name="Niara" directory="niara">
-  <author name="thirty bees community" email="contact@thirtybees.com"
-          url="https://github.com/thirtybees/niara"/>
+<theme version="1.1.0" name="Hola" directory="hola">
+  <author name="thirty bees community" email="contact@thirtybees.com" url="https://github.com/thirtybees/niara"/>
   <descriptions>
-      <description iso="en">Niara is a theme developed and maintained by the thirty bees community and default theme since thirty bees 1.1.0.</description>
+    <description iso="en">Niara is a theme developed and maintained by the thirty bees community and default theme since thirty bees 1.1.0.</description>
   </descriptions>
   <variations>
-    <variation name="Niara" directory="niara" responsive="1"
-               default_left_column="1" default_right_column="0"
-               product_per_page="12" from="1.1.0"/>
+    <variation name="Hola" directory="hola" responsive="1" default_left_column="1" default_right_column="0" product_per_page="12" from="1.1.0"/>
   </variations>
-  <docs></docs>
+  <docs/>
   <metas>
     <meta meta_page="best-sales" left="1" right="0"/>
     <meta meta_page="contact" left="0" right="0"/>
@@ -182,39 +179,17 @@
     </hooks>
   </modules>
   <images>
-    <image name="cart" width="80" height="80"
-           products="true" categories="false" manufacturers="false"
-           suppliers="false" scenes="false" stores="false"/>
-    <image name="small" width="98" height="98"
-           products="true" categories="false" manufacturers="true"
-           suppliers="true" scenes="false" stores="false"/>
-    <image name="medium" width="125" height="125"
-           products="true" categories="true" manufacturers="true"
-           suppliers="true" scenes="false" stores="true"/>
-    <image name="home" width="250" height="250"
-           products="true" categories="false" manufacturers="false"
-           suppliers="false" scenes="false" stores="false"/>
-    <image name="home_smaller" width="218" height="218"
-           products="true" categories="false" manufacturers="false"
-           suppliers="false" scenes="false" stores="false"/>
-    <image name="home_smallest" width="211" height="211"
-            products="true" categories="false" manufacturers="false"
-           suppliers="false" scenes="false" stores="false"/>
-    <image name="large" width="458" height="458"
-           products="true" categories="false" manufacturers="true"
-           suppliers="true" scenes="false" stores="false"/>
-    <image name="thickbox" width="800" height="800"
-           products="true" categories="false" manufacturers="false"
-           suppliers="false" scenes="false" stores="false"/>
-    <image name="category" width="870" height="217"
-           products="false" categories="true" manufacturers="false"
-           suppliers="false" scenes="false" stores="false"/>
-    <image name="scene" width="870" height="270"
-           products="false" categories="false" manufacturers="false"
-           suppliers="false" scenes="true" stores="false"/>
-    <image name="m_scene" width="161" height="58"
-           products="false" categories="false" manufacturers="false"
-           suppliers="false" scenes="true" stores="false"/>
+    <image name="cart" width="80" height="80" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false" stores="false"/>
+    <image name="small" width="98" height="98" products="true" categories="false" manufacturers="true" suppliers="true" scenes="false" stores="false"/>
+    <image name="medium" width="125" height="125" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false" stores="true"/>
+    <image name="home" width="250" height="250" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false" stores="false"/>
+    <image name="home_smaller" width="218" height="218" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false" stores="false"/>
+    <image name="home_smallest" width="211" height="211" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false" stores="false"/>
+    <image name="large" width="458" height="458" products="true" categories="false" manufacturers="true" suppliers="true" scenes="false" stores="false"/>
+    <image name="thickbox" width="800" height="800" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false" stores="false"/>
+    <image name="category" width="870" height="217" products="false" categories="true" manufacturers="false" suppliers="false" scenes="false" stores="false"/>
+    <image name="scene" width="870" height="270" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true" stores="false"/>
+    <image name="m_scene" width="161" height="58" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true" stores="false"/>
   </images>
   <lazy_load>1</lazy_load>
   <high_dpi>1</high_dpi>

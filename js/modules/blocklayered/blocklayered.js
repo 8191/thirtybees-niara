@@ -356,6 +356,7 @@ function reloadContent(paramsPlus) {
       }
     }
   });
+
   ajaxQueries.push(ajaxQuery);
 }
 
@@ -551,6 +552,15 @@ function initLayered() {
 
     $(function () {
       cancelFilter();
+
+      $(document).on('show.bs.collapse', '#layered_block_left > div.block_content', function() {
+        console.log("show");
+        $('#layered_block_left > h2.title_block').addClass('expanded');
+      });
+      $(document).on('hidden.bs.collapse', '#layered_block_left > div.block_content', function() {
+        console.log("hide");
+        $('#layered_block_left > h2.title_block').removeClass('expanded');
+      });
 
       // Click on color
       $(document).on('click', '#layered_form input[type=button], #layered_form label.layered_color', function () {

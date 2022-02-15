@@ -93,17 +93,7 @@
 
     <nav class="navbar navbar-default">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#header-navbar" aria-expanded="false">
-                    <span class="sr-only">{l s='Toggle navigation'}</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse" id="header-navbar">
+            <div class="navbar" id="header-navbar">
                 {* {capture name='displayHeaderNavbarLeftNav'}{hook h='displayHeaderNavbarLeftNav'}{/capture}
                 {if $smarty.capture.displayHeaderNavbarLeftNav}
                   <ul id="header-navbar-left-nav" class="nav navbar-nav">
