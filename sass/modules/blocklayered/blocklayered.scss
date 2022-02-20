@@ -20,6 +20,30 @@
   }
 }
 
+// Always show collapse on desktop
+@media (min-width: $screen-sm-min) {
+  #layered_block_left div.block_content {
+    display: inherit;
+    height: auto !important;
+  }
+}
+// Allow to collapse/expand on mobile
+@media (max-width: $screen-xs-max) {
+  #layered_block_left {
+    padding-bottom: 0;
+  }
+  #layered_block_left h2.title_block.expanded::after {
+    content: $fa-var-minus !important;
+  }
+  #layered_block_left h2.title_block::after {
+    content: $fa-var-plus;
+    font-family: $font-icon;
+    position: absolute;
+    right: 29px;
+    font-size: 26px;
+  }
+}
+
 #layered_form {
 
   ul {

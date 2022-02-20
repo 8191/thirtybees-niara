@@ -3,16 +3,21 @@
 @import "./../../vendor_variables";
 
 #search_block_top {
-  margin-top: 30px;
-  @media (max-width: $screen-xs-max) {
-    margin-top: 15px;
+  // margin-top: 30px;
+  position: absolute;
+  left: 0;
+  input {
+    padding-left: 0;
   }
-  @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
-    margin-top: 10px;
-  }
-  @media (min-width: $screen-md) and (max-width: $screen-md-max) {
-    margin-top: 20px;
-  }
+  // @media (max-width: $screen-xs-max) {
+  //   margin-top: 15px;
+  // }
+  // @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+  //   margin-top: 10px;
+  // }
+  // @media (min-width: $screen-md) and (max-width: $screen-md-max) {
+  //   margin-top: 20px;
+  // }
   #search_query_top{
     height: 34px;
     font-size: 14px;
@@ -28,6 +33,17 @@
     color: #ddd;
     border: none;
     border-bottom: 1px solid #ddd;
+  }
+}
+
+#search_query_top {
+  @media (max-width: $screen-xs-max) {
+    & {
+      max-width: 7em;
+    }
+    &:focus {
+      max-width: 8em;
+    }
   }
 }
 

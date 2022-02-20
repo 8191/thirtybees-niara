@@ -1,0 +1,54 @@
+body#index {
+  #columns > .row {
+    margin: 0;
+  }
+  #center_column {
+    padding: 0;
+  }
+
+  #index-tab-content {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 33.3333333%;
+
+    @media (min-width: $screen-lg-min) {
+      background-image: url('/img/cms/painter-4096.jpg');
+    }
+    @media (max-width: $screen-md-max) {
+      background-image: url('/img/cms/painter-1170.jpg');
+    }
+
+    .front-slogan {
+      position: absolute;
+      top: 100px;
+      font-size: 3em;
+      font-variant: all-small-caps;
+      width: 400px;
+      font-weight: bold;
+      line-height: 2ex;
+
+      @media (max-width: $screen-xs-max) {
+        top: 15px;
+        font-size: 17pt;
+        width: 200px;
+        &.de {
+          top: 15px;
+        }
+        &.en, &.es {
+          top:30px;
+        }
+      }
+
+      @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        top: 50px;
+        font-size: 2em;
+        width: 300px;
+      }
+
+      @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+        top: 80px;
+      }
+    }
+  }
+}

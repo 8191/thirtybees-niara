@@ -263,16 +263,14 @@
   }
 
   // Uncollapse the nav
-  @media (min-width: $grid-float-breakpoint) {
-    float: left;
-    margin: 0;
+  float: left;
+  margin: 0;
 
-    > li {
-      float: left;
-      > a {
-        padding-top:    $navbar-padding-vertical;
-        padding-bottom: $navbar-padding-vertical;
-      }
+  > li {
+    float: left;
+    > a {
+      padding-top:    $navbar-padding-vertical;
+      padding-bottom: $navbar-padding-vertical;
     }
   }
 }
@@ -375,17 +373,15 @@
 //
 // Declared after the navbar components to ensure more specificity on the margins.
 
-@media (min-width: $grid-float-breakpoint) {
-  .navbar-left {
-    float: left !important;
-  }
-  .navbar-right {
-    float: right !important;
-  margin-right: -$navbar-padding-horizontal;
+.navbar-left {
+  float: left !important;
+}
+.navbar-right {
+  float: right !important;
+margin-right: -$navbar-padding-horizontal;
 
-    ~ .navbar-right {
-      margin-right: 0;
-    }
+  ~ .navbar-right {
+    margin-right: 0;
   }
 }
 

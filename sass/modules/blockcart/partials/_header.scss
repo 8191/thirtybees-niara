@@ -3,20 +3,20 @@ $bc-header-color: #121212;
 
 #blockcart {
   position: relative;
-  margin-top: 30px;
+  // margin-top: 30px;
   text-align: right;
 
-  @media (max-width: $screen-xs-max) {
-    margin-top: 15px;
-  }
+  // @media (max-width: $screen-xs-max) {
+  //   margin-top: 15px;
+  // }
 
-  @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
-    margin-top: 10px;
-  }
+  // @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+  //   margin-top: 10px;
+  // }
 
-  @media (min-width: $screen-md) and (max-width: $screen-md-max) {
-    margin-top: 20px;
-  }
+  // @media (min-width: $screen-md) and (max-width: $screen-md-max) {
+  //   margin-top: 20px;
+  // }
 }
 
 .ajax_cart_total {
@@ -63,7 +63,7 @@ $bc-header-color: #121212;
   .ajax_cart_quantity{
     position: absolute;
     top: 0;
-    right: 38px;
+    // right: 38px;
     display: block !important;
     min-width: 20px;
     min-height: 20px;

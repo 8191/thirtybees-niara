@@ -47,3 +47,11 @@ body {
 .top_column_wrapper{
   background: #f4f4f4;
 }
+
+#top-nav {
+  position: inherit;
+}
+
+#header-navbar-right-nav > li > a {
+  padding: 15px 15px 0 0;
+}

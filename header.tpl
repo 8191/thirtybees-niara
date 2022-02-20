@@ -128,7 +128,7 @@
         </div>
     </div>
 {/if}
-<div id="columns" class="container">
+<div id="columns" class="{if isset($page_name) && $page_name == "index"}container-float{else}container{/if}">
     {if $page_name !='index' && $page_name !='pagenotfound'}
         {include file="$tpl_dir./breadcrumb.tpl"}
     {/if}

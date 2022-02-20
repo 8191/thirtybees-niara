@@ -347,8 +347,7 @@ input[type="checkbox"] + .label-text:before {
 }
 
 .product_list.grid .show-if-product-grid-hover, .product_list.grid .hide-if-product-grid {
-  -webkit-transform: translate3d(-50px, 0px, 0px);
-          transform: translate3d(-50px, 0px, 0px);
+  transform: translate3d(-50px, 0px, 0px);
 }
 
 .product_list.grid .button-container a i {
@@ -368,8 +367,7 @@ input[type="checkbox"] + .label-text:before {
 .product_list .show-if-product-item-hover {
   right: auto;
   left: 0;
-  -webkit-transform: translate3d(-50px, 0px, 0px);
-          transform: translate3d(-50px, 0px, 0px);
+  transform: translate3d(-50px, 0px, 0px);
 }
 
 #quantity_wanted_p .input-group {
@@ -607,12 +605,10 @@ input[type="checkbox"] + .label-text:before {
 
 /* Fancybox */
 .fancybox-button--left::after {
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .fancybox-button--right::after {
-  -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
 

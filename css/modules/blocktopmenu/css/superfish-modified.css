@@ -13,7 +13,6 @@
 }
 
 .sf-menu {
-  position: relative;
   padding: 0;
   width: 100%;
 }
@@ -87,9 +86,7 @@
 .sf-menu > li.sfHover > a,
 .sf-menu > li > a:hover,
 .sf-menu > li.sfHoverForce > a {
-  /*background: #333;
-  border-bottom-color: #666666;*/
-  color: #7c9837;
+  color: #ff6f61;
 }
 
 .sf-menu li li li a {
@@ -112,8 +109,7 @@
 .sf-menu li ul {
   display: none;
   left: 0;
-  top: 59px;
-  /* match top ul list item height */
+  top: 125px;
   z-index: 99;
   padding: 12px 0px 18px 0px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 13px;

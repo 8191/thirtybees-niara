@@ -10,4 +10,10 @@
 #block_top_menu {
   padding-top: 25px;
   padding-bottom: 25px;
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 0;
+    padding-bottom: 0;
+    bottom: 0;
+  }
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #enabled_filters {
   margin: 0 0 10px 0;
   background: #eee;
@@ -16,23 +17,22 @@
   float: right;
 }
 
-/* MFX: always show collapse on desktop */
 @media (min-width: 768px) {
   #layered_block_left div.block_content {
     display: inherit;
     height: auto !important;
   }
 }
-/* MFX: allow to collapse/expand on mobile */
+
 @media (max-width: 767px) {
   #layered_block_left {
     padding-bottom: 0;
   }
   #layered_block_left h2.title_block.expanded::after {
-    content: "\f068" !important;
+    content: "" !important;
   }
   #layered_block_left h2.title_block::after {
-    content: "\f067";
+    content: "";
     font-family: "FontAwesome";
     position: absolute;
     right: 29px;

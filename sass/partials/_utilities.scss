@@ -61,10 +61,25 @@ ul.list-grid {
     float: none;
   }
 }
-// Making Buttons full width on mobile
 @media (max-width: $screen-sm) {
+  // Making Buttons full width on mobile
   .btn-full {
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  // Colombian flag separator between articles on mobile
+  ul.list-grid.product_list {
+    > li {
+      background-image: linear-gradient(to right, rgb(255,210,3) 50%, rgb(0,52,148) 50.0001%, rgb(0,52,148) 75%, rgb(240,8,34) 75.0001%);
+      background-size: auto 1px;
+      background-position: 0% 0%;
+      background-repeat: repeat-x;
+      background-color: white;
+      padding-top: 1px;
+    }
+    > li:first-child {
+      background: none;
+    }
   }
 }
