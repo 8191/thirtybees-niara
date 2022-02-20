@@ -544,30 +544,34 @@
         </section>
       {/if}
 
-      {if !empty($features)}
-        <section id="product-features" class="page-product-box">
-          <h3 class="page-product-heading">{l s='Data sheet'}</h3>
-          <div class="table-responsive">
-            <table class="table table-bordered table-condensed table-hover table-data-sheet">
-              {foreach from=$features item=feature}
-                <tr class="{cycle values="odd,even"}">
-                  {if isset($feature.value)}
-                    <td>{$feature.name|escape:'html':'UTF-8'}</td>
-                    <td>{$feature.value|escape:'html':'UTF-8'}</td>
-                  {/if}
-                </tr>
-              {/foreach}
-            </table>
-          </div>
-        </section>
-      {/if}
+      <div class="container">
+        <div class="row">
+          {if isset($product) && $product->description}
+            <section id="product-description" class="page-product-box col-sm-5">
+              <h3 class="page-product-heading">{l s='More info'}</h3>
+              <div  class="rte">{$product->description}</div>
+            </section>
+          {/if}
 
-      {if isset($product) && $product->description}
-        <section id="product-description" class="page-product-box">
-          <h3 class="page-product-heading">{l s='More info'}</h3>
-          <div  class="rte">{$product->description}</div>
-        </section>
-      {/if}
+          {if !empty($features)}
+            <section id="product-features" class="page-product-box col-sm-7">
+              <h3 class="page-product-heading">{l s='Data sheet'}</h3>
+              <div class="table-responsive">
+                <table class="table table-bordered table-condensed table-hover table-data-sheet">
+                  {foreach from=$features item=feature}
+                    <tr class="{cycle values="odd,even"}">
+                      {if isset($feature.value)}
+                        <td>{$feature.name|escape:'html':'UTF-8'}</td>
+                        <td>{$feature.value|escape:'html':'UTF-8'}</td>
+                      {/if}
+                    </tr>
+                  {/foreach}
+                </table>
+              </div>
+            </section>
+          {/if}
+        </div>
+      </div>
 
       {if isset($packItems) && $packItems|@count > 0}
         <section id="blockpack" class="page-product-box">
