@@ -2,9 +2,9 @@
   {if $class == 'blockbestsellers' }
     {$product_block_size_class = 'col-xs-12'}
   {elseif $page_name == 'index' || $page_name == 'product'}
-    {$product_block_size_class = 'col-xs-12 col-sm-4 col-md-3'}
+    {$product_block_size_class = 'col-xs-6 col-sm-4 col-md-3'}
   {else}
-    {$product_block_size_class = 'col-xs-12 col-sm-6 col-md-4'}
+    {$product_block_size_class = 'col-xs-6 col-sm-6 col-md-4'}
   {/if}
 
   {$show_functional_buttons = $page_name != 'index'}
