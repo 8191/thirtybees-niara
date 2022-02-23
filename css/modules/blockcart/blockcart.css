@@ -241,7 +241,7 @@
   margin: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 748px) {
   .layer_cart_cart .pager > li > a {
     float: none;
     display: block;

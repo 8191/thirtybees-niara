@@ -17,14 +17,14 @@
   float: right;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 749px) {
   #layered_block_left div.block_content {
     display: inherit;
     height: auto !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 748px) {
   #layered_block_left {
     padding-bottom: 0;
   }
