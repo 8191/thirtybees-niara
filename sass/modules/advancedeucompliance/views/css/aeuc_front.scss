@@ -52,3 +52,11 @@ a.payment_module_adv {
 .content_price.show-if-product-grid-hover > .aeuc_delivery_label {
   color: white;
 }
+
+body#category {
+  .content_price {
+    .aeuc_tax_label, .aeuc_shipping_label, .aeuc_delivery_label {
+      display: none;
+    }
+  }
+}

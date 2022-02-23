@@ -9914,6 +9914,10 @@ ul.list-grid > li {
   }
 }
 
+#left_column .content_price .aeuc_tax_label, #left_column .content_price .aeuc_shipping_label, #left_column .content_price .aeuc_delivery_label, #right_column .content_price .aeuc_tax_label, #right_column .content_price .aeuc_shipping_label, #right_column .content_price .aeuc_delivery_label {
+  display: none;
+}
+
 .pagenotfound h2 {
   font-size: 3.5em;
   margin: 0 0 1em;
