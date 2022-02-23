@@ -1,0 +1,12 @@
+@import "./../../theme_variables";
+@import "./../../vendor_variables";
+
+#blocklanguages.open {
+  @media (max-width: $grid-float-breakpoint-max) {
+    // Fix jumping flag when opening dropdown menu
+    .dropdown-menu {
+      position: absolute;
+      background-color: $body-bg;
+    }
+  }
+}

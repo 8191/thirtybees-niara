@@ -3427,7 +3427,6 @@ tbody.collapse.in {
 
 .input-group-addon,
 .input-group-btn {
-  width: 1%;
   white-space: nowrap;
   vertical-align: middle;
 }
@@ -9906,9 +9905,6 @@ ul.list-grid > li {
     background-repeat: repeat-x;
     background-color: white;
     padding-top: 1px;
-  }
-  ul.list-grid.product_list > li:first-child {
-    background: none;
   }
 }
 

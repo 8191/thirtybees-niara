@@ -11,7 +11,7 @@
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
       <img src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code|escape:'html':'UTF-8'}" width="16" height="11" /> <span class="caret"></span>
     </a>
-    <ul class="dropdown-menu">
+    <ul class="dropdown-menu dropdown-menu-right">
       {foreach from=$languages key=k item=language name="languages"}
         <li{if $language.iso_code == $lang_iso} class="active"{/if}>
 

@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  #blocklanguages.open .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+  }
+}
