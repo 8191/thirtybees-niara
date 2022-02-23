@@ -13,8 +13,19 @@
     "gulp-sourcemaps": "^2.6.5",
     "mkdirp": "^0.5.1"
   },
+  "profile": "development",
+  "profiles": {
+    "development": {
+      "sourceComments": true,
+      "outputStyle": "expanded"
+    },
+    "production": {
+      "sourceComments": false,
+      "outputStyle": "compressed"
+    }
+  },
   "options": {
-    "themeName": "Niara",
+    "themeName": "Hola",
     "themeModulePrefix": "ct",
     "sourcemaps": false
   },
