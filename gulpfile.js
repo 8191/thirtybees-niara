@@ -10,9 +10,6 @@ var sourcemaps = require('gulp-sourcemaps');
 var notify = require('gulp-notify');
 var gulpif = require('gulp-if');
 var options = require('./package.json').options;
-var config = require('./package.json');
-
-var profile = config.profiles[config.profile];
 
 var createFolders = [
 	'./cache/',
@@ -61,8 +58,7 @@ gulp.task('compile-css', function() {
 		.pipe(gulpif(options.sourcemaps, sourcemaps.init()))
 		.pipe(
 			sass({
-				outputStyle: profile.outputStyle,
-                sourceComments: profile.sourceComments,
+				outputStyle: options.outputStyle,
 				precision: 8
 			}).on('error', sass.logError)
 		)

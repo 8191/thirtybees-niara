@@ -13,21 +13,11 @@
     "gulp-sourcemaps": "^2.6.5",
     "mkdirp": "^0.5.1"
   },
-  "profile": "development",
-  "profiles": {
-    "development": {
-      "sourceComments": true,
-      "outputStyle": "expanded"
-    },
-    "production": {
-      "sourceComments": false,
-      "outputStyle": "compressed"
-    }
-  },
   "options": {
     "themeName": "Hola",
     "themeModulePrefix": "ct",
-    "sourcemaps": false
+    "sourcemaps": false,
+    "outputStyle": "expanded"
   },
   "browserslist": [
     "> 0.5%",
@@ -36,7 +26,7 @@
   ],
   "scripts": {
     "compile-css": "./node_modules/.bin/gulp compile-css",
-    "watch-sass": "./node_modules/.bin/gulp watch-sass",
+    "watch-sass": "./node_modules/.bin/gulp default",
     "clean-up": "./node_modules/.bin/gulp clean-up",
     "copy-index": "./node_modules/.bin/gulp copy-index",
     "lint-js": "./node_modules/.bin/gulp lint-js",
