@@ -3,6 +3,12 @@
 .price {
   white-space: nowrap;
   // &.product-price {}
+  font-family: $font-family-numbers;
+  color: $text-color;
+}
+
+.reduction, .old-price {
+  font-family: $font-family-numbers;
 }
 
 .old-price {
@@ -11,11 +17,12 @@
   // &.product-price {}
 }
 
-.special-price {
-  color: $product-price-special-color;
-}
+// .special-price {
+//   color: $product-price-special-color;
+// }
 
 .price-percent-reduction {
+  font-family: $font-family-numbers;
   background-color: $product-price-reduction-bg;
   color: $product-price-reduction-color;;
   padding: 0 0.25em;

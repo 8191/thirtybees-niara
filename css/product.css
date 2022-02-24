@@ -70,20 +70,28 @@
   margin: 0;
 }
 
+#price-box {
+  margin-bottom: 15px;
+}
+
 .our_price_display {
   font-size: 2em;
+  display: block;
 }
 
 .our_price_display .price {
   font-weight: 500;
-  color: #ff6f61;
 }
 
 #old_price {
   display: inline-block;
   text-decoration: line-through;
-  color: #ccc;
+  color: #aaa;
   font-size: 1.5em;
+}
+
+#old_price_display, #reduction_amount_display, #reduction_percent_display {
+  font-size: 16px;
 }
 
 #reduction_percent,

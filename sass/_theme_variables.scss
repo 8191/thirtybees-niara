@@ -10,7 +10,7 @@ $product-price-reduction-bg    : none;
 $product-price-reduction-color : #cc0000;
 
 $product-price-special-color   : #cc0000;
-$product-price-old-color       : #ccc;
+$product-price-old-color       : #aaa;
 
 // Font Awesome
 $font-icon     : 'FontAwesome';
@@ -67,6 +67,7 @@ $link-hover-decoration: underline !default;
 
 $font-family-sans-serif:  "Raleway", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-numbers:     Verdana, Arial, sans-serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;

@@ -9604,18 +9604,21 @@ body.content_only {
 
 .price {
   white-space: nowrap;
+  font-family: Verdana, Arial, sans-serif;
+  color: #333333;
+}
+
+.reduction, .old-price {
+  font-family: Verdana, Arial, sans-serif;
 }
 
 .old-price {
-  color: #ccc;
+  color: #aaa;
   text-decoration: line-through;
 }
 
-.special-price {
-  color: #cc0000;
-}
-
 .price-percent-reduction {
+  font-family: Verdana, Arial, sans-serif;
   background-color: none;
   color: #cc0000;
   padding: 0 0.25em;

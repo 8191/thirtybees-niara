@@ -92,11 +92,16 @@ $zoom-in-size: 110px;
   }
 }
 
+#price-box {
+  margin-bottom: 15px;
+}
+
 .our_price_display {
   font-size: 2em;
+  display: block;
   .price {
     font-weight: 500;
-    color: $link-hover-color;
+    // color: $link-hover-color;
   }
 }
 
@@ -105,6 +110,10 @@ $zoom-in-size: 110px;
   text-decoration: line-through;
   color: $product-price-old-color;
   font-size: 1.5em;
+}
+
+#old_price_display, #reduction_amount_display, #reduction_percent_display {
+  font-size: 16px;
 }
 
 #reduction_percent,

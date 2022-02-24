@@ -136,8 +136,7 @@
               </span>
                                 {hook h="displayProductPriceBlock" id_product=$product.id_product type="old_price"}
                                 {if $product.specific_prices.reduction_type == 'percentage'}
-                                    <span class="price-percent-reduction">-{$product.specific_prices.reduction * 100}
-                                        %</span>
+                                    <span class="price-percent-reduction">-{$product.specific_prices.reduction * 100}%</span>
                                 {/if}
                             {/if}
                             {hook h="displayProductPriceBlock" product=$product type="price"}
