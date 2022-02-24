@@ -127,24 +127,28 @@ $zoom-in-size: 110px;
 }
 
 #quantity_wanted_p {
-  .input-group{
+  .input-group {
     float: left;
-    #quantity_wanted{
+    #quantity_wanted {
       width: 50px;
       height: 50px;
       border-right: none;
+      font-family: $font-family-numbers;
     }
-    .input-group-btn{
+    .input-group-btn {
       float: left;
-      a{
+      a {
         height: 25px;
         width: 25px;
         line-height: 25px;
         padding: 0;
       }
-      .button-minus{
+      .button-minus {
         top: 25px;
       }
+    }
+    .input-group-btn:last-child {
+      margin-left: -24px;
     }
   }
 }
