@@ -133,6 +133,9 @@
         {include file="$tpl_dir./breadcrumb.tpl"}
     {/if}
     <div class="row">
+        {if $page_name == 'category'}
+            {include file="./category-header.tpl"}
+        {/if}
         {if isset($left_column_size) && !empty($left_column_size)}
             <aside id="left_column" class="col-xs-12 col-sm-{$left_column_size|intval}">{$HOOK_LEFT_COLUMN}</aside>
         {/if}
