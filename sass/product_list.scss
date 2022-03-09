@@ -110,6 +110,7 @@ h1.product-listing{
 .product-container {
   margin-bottom: 30px;
   border-bottom: 1px solid transparent; // Preserves block heights on hover
+  background-color: $box-background;
 }
 
 .hook-reviews {
@@ -162,7 +163,7 @@ h1.product-listing{
 
 .product_list.grid {
   .product-container {
-    background: #fff;
+    // background: #fff;
     // margin-bottom: 45px;
     overflow: hidden;
     .product-description-container{
