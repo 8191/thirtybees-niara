@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_efe89dc536d809f669d425485a57247c'] = 'Bloquea Más Vendidos';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_ed6476843a865d9daf92e409082b76e1'] = 'Añadir un bloque para mostrar los productos más vendidos de la tienda.';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_c888438d14855d7d96a2724ee9c306bd'] = 'Ajustes actualizados';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_26986c3388870d4148b1b5375368a83d'] = 'Productos para mostrar';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_2b21378492166b0e5a855e2da611659c'] = 'Determina el número de productos para mostrar en este bloque';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_cb31bb89da1600a11ad6cd75ad3fb02d'] = 'Productos con precio superior';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_fba822b1ce07fa59818361ff4f005052'] = 'Mostrar sólo productos con precio más alto de lo definido en este bloque, 0 para mostrar todos los productos';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_24ff4e4d39bb7811f6bdf0c189462272'] = 'Mostrar siempre este bloque';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_84b0c5fdef19ab8ef61cd809f9250d85'] = 'Mostrar el bloque, incluso si no hay productos más vendidos disponibles.';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activado';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivado';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_5f00c519230bb042f8b9a4b0c291fba3'] = 'Tiempo de vida del cache';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_ead5fe8ba0ceebb44c1c45967faac69d'] = 'Determina durante cuánto tiempo el bloque de ventas más vendido se mantiene en caché';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_f670ea66cfb0e90bd6090472ad692694'] = 'Minutos';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers-home_09a5fe24fe0fc9ce90efc4aa507c66e7'] = 'No hay productos más vendidos en este momento.';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_1d0a2e1f62ccf460d604ccbc9e09da95'] = 'Ver los productos más vendidos';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_3cb29f0ccc5fd220a97df89dafe46290'] = '¡Lo más vendido!';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_eae99cd6a931f3553123420b16383812'] = 'Los productos más vendidos';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_f7be84d6809317a6eb0ff3823a936800'] = 'No hay productos más vendidos en este momento';
+$_MODULE['<{blockbestsellers}hola>tab_d7b2933ba512ada478c97fa43dd7ebe6'] = 'Los más vendidos';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers-home_700991de2f376252b54d00c4750ec298'] = 'Lo que más';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers-home_b5c0b187fe309af0f4d35982fd961d7e'] = 'les encanta';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers-home_f7c0a09108cdf26287c1bc5af2ed1f93'] = 'a los demás';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers-home_90a3ad3693d3a5422b6cc5383fa3e063'] = 'Vea nuestros productos más vendidos.';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_700991de2f376252b54d00c4750ec298'] = 'Lo que más';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_b5c0b187fe309af0f4d35982fd961d7e'] = 'les encanta';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_f7c0a09108cdf26287c1bc5af2ed1f93'] = 'a los demás';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_90a3ad3693d3a5422b6cc5383fa3e063'] = 'Vea nuestros productos más vendidos.';
+$_MODULE['<{blockbestsellers}hola>blockbestsellers_09a5fe24fe0fc9ce90efc4aa507c66e7'] = 'No hay productos más vendidos en este momento.';
