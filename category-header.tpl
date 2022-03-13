@@ -17,6 +17,16 @@
               >
             </noscript>
           {/if}
+          
+          <h1 class="page-heading{if (isset($subcategories) && !$products) || (isset($subcategories) && $products) || !isset($subcategories) && $products} product-listing{/if}">
+              <span class="cat-name">
+                  {$category->name|escape:'html':'UTF-8'}
+                  {if isset($categoryNameComplement)}
+                      &nbsp;{$categoryNameComplement|escape:'html':'UTF-8'}
+                  {/if}
+              </span>
+          </h1>
+            
           <picture class="img-responsive{if !empty($lazy_load)} tb-lazy-image{/if}">
             <!--[if IE 9]><video style="display: none;"><![endif]-->
             {if !empty($webp)}
@@ -49,15 +59,6 @@
           </picture>
         </div>
     {/if}
-
-    <h1 class="page-heading{if (isset($subcategories) && !$products) || (isset($subcategories) && $products) || !isset($subcategories) && $products} product-listing{/if}">
-        <span class="cat-name">
-            {$category->name|escape:'html':'UTF-8'}
-            {if isset($categoryNameComplement)}
-                &nbsp;{$categoryNameComplement|escape:'html':'UTF-8'}
-            {/if}
-        </span>
-    </h1>
 
     {if !empty($category->description)}
         <div id="category-description" class="rte">{$category->description}</div>
