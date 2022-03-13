@@ -27,6 +27,11 @@ body {
 
 #header-banners {
   background-color: $header-banner-bg;
+  // MFX - fix welcoming banner on top
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 #header {
