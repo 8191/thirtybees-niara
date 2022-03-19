@@ -38,6 +38,14 @@
   #blockcontactinfos .icon{
     /*display: none;*/
   }
+  
+  .legal {
+    float: left;
+    padding-top: 12px;
+    padding-left:  ceil(($grid-gutter-width / 2));
+    padding-right: floor(($grid-gutter-width / 2));
+    font-size: $font-size-small;
+  }
 }
 
 #copyright-footer {

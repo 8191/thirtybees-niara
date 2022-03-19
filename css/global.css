@@ -9596,6 +9596,14 @@ body.content_only {
   /*display: none;*/
 }
 
+#footer .legal {
+  float: left;
+  padding-top: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+}
+
 #copyright-footer {
   margin-top: 10px;
   text-align: center;
