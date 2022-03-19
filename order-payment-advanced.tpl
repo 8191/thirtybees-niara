@@ -29,6 +29,17 @@
   <div class="alert alert-warning">{l s='This store has not accepted your new order.'}</div>
 {else}
   <div id="emptyCartWarning" class="alert alert-warning unvisible">{l s='Your shopping cart is empty.'}</div>
+
+  {if $is_logged AND !$is_guest}
+    {include file="$tpl_dir./order-address-advanced.tpl"}
+  {elseif $opc}
+    {include file="$tpl_dir./order-opc-new-account-advanced.tpl"}
+  {/if}
+  
+  {if $opc}
+    {include file="$tpl_dir./order-carrier-advanced.tpl"}
+  {/if}
+  
   <h2>{l s='Payment Options'}</h2>
 
   <div id="HOOK_ADVANCED_PAYMENT">
@@ -79,16 +90,6 @@
     </div>
     {/if}
   </div>
-
-  {if $opc}
-    {include file="$tpl_dir./order-carrier-advanced.tpl"}
-  {/if}
-
-  {if $is_logged AND !$is_guest}
-    {include file="$tpl_dir./order-address-advanced.tpl"}
-  {elseif $opc}
-    {include file="$tpl_dir./order-opc-new-account-advanced.tpl"}
-  {/if}
 
   {if $conditions AND $cms_id}
     {if $override_tos_display }
