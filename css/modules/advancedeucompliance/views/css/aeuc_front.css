@@ -52,3 +52,7 @@ a.payment_module_adv {
 body#category .content_price .aeuc_tax_label, body#category .content_price .aeuc_shipping_label, body#category .content_price .aeuc_delivery_label {
   display: none;
 }
+
+.tnc_box a {
+  color: #d70800;
+}

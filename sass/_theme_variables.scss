@@ -57,6 +57,7 @@ $text-color:            $gray-dark !default;
 
 //** Global textual link color.
 $link-color:            $gray-darker !default;
+$link-color-highlight:  #d70800; // Used in CMS and for important links
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $brand-primary !default;
 //** Link hover decoration.

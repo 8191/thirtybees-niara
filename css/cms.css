@@ -5,6 +5,13 @@
   margin-bottom: 15px;
 }
 
+.cms-content a,
+.cms-category-content a,
+.cms-page-list a,
+.cms-category-list a {
+  color: #d70800;
+}
+
 .kntkt {
   display: inline;
 }
