@@ -9,7 +9,11 @@
   margin-bottom: 15px;
   
   a {
-      color: $link-color-highlight;
+    color: $link-color-highlight;
+    
+    &:hover {
+      text-decoration: $link-hover-decoration;
+    }
   }
 }
 

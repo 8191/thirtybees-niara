@@ -12,6 +12,13 @@
   color: #d70800;
 }
 
+.cms-content a:hover,
+.cms-category-content a:hover,
+.cms-page-list a:hover,
+.cms-category-list a:hover {
+  text-decoration: underline;
+}
+
 .kntkt {
   display: inline;
 }

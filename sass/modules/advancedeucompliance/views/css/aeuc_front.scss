@@ -62,7 +62,11 @@ body#category {
 }
 
 .tnc_box {
-    a {
-        color: $link-color-highlight;
+  a {
+    color: $link-color-highlight;
+    
+    &:hover {
+      text-decoration: $link-hover-decoration;
     }
+  }
 }

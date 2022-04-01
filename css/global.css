@@ -9428,6 +9428,10 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 #short_description_content ul, #short_description_content ol, #short_description_content dl,
 #tinymce ul,
 #tinymce ol,

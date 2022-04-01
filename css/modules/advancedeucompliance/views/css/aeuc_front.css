@@ -56,3 +56,7 @@ body#category .content_price .aeuc_tax_label, body#category .content_price .aeuc
 .tnc_box a {
   color: #d70800;
 }
+
+.tnc_box a:hover {
+  text-decoration: underline;
+}
