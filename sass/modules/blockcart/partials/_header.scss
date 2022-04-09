@@ -28,7 +28,7 @@ $bc-header-color: #121212;
   // Make this block the same dimensions as input-lg (search block to the left)
   // @see /sass/vendor/bootstrap/bootstrap/_forms.scss
   height: $input-height-large;
-  padding: 0 $padding-large-horizontal;
+  padding: 0 $padding-large-horizontal 0 0;
   // font-size: $font-size-large;
   line-height: $input-height-large;
 

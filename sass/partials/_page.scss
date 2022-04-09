@@ -11,8 +11,11 @@ body {
 
 #header-blocks {
   background-color: $page-content-bg;
-  padding-top: 15px;
   position: relative;
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 15px;
+  }
 }
 
 #columns {
@@ -59,4 +62,13 @@ body {
 
 #header-navbar-right-nav > li > a {
   padding: 15px 15px 0 0;
+}
+
+@media (max-width: $screen-xs-max) {
+  #header-navbar {
+    font-size: $font-size-large !important;
+    .open .dropdown-menu {
+      @include box-shadow(0 6px 12px rgba(0,0,0,.175));
+    }
+  }
 }

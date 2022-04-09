@@ -9499,8 +9499,13 @@ body.content_only {
 
 #header-blocks {
   background-color: transparent;
-  padding-top: 15px;
   position: relative;
+}
+
+@media (min-width: 749px) {
+  #header-blocks {
+    padding-top: 15px;
+  }
 }
 
 #columns {
@@ -9548,6 +9553,15 @@ body.content_only {
 
 #header-navbar-right-nav > li > a {
   padding: 15px 15px 0 0;
+}
+
+@media (max-width: 748px) {
+  #header-navbar {
+    font-size: 18px !important;
+  }
+  #header-navbar .open .dropdown-menu {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  }
 }
 
 #footer {

@@ -2,15 +2,21 @@
   padding-bottom: 0;
 }
 
-#block_top_menu {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 @media (min-width: 749px) {
   #block_top_menu {
     padding-top: 0;
     padding-bottom: 0;
     bottom: 0;
+  }
+}
+
+.cat-title img {
+  max-height: 96px;
+  width: auto;
+}
+
+@media (max-width: 748px) {
+  .cat-title img {
+    max-height: 50px;
   }
 }

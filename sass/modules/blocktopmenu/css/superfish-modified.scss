@@ -52,13 +52,13 @@
       z-index: 2;
       &:after {
         font-family: $font-icon;
-        content: "\f067";
+        content: $fa-var-plus;
         font-size: 20px;
         color: $brand-primary;
       }
       &.active {
         &:after {
-          content: "\f068";
+          content: $fa-var-minus;
         }
       }
     }
@@ -90,7 +90,7 @@
   font-weight: 500;
   padding-bottom: 10px;
   &:before {
-    content: "\f0da";
+    content: $fa-var-caret-right;
     display: inline-block;
     font-family: $font-icon;
     padding-right: 10px;
@@ -201,25 +201,25 @@ ul.sf-menu li li li.sfHover ul {
     text-transform: uppercase;
     color: $gray-darker;
     display: block;
-    padding: 17px 20px;
-    background: #f4f4f4;
+    // padding: 17px 20px;
+    // background: #f4f4f4;
     position: relative;
-    &:hover {
-      background: #333;
-      color: #fff;
-    }
+    // &:hover {
+      // background: #333;
+      // color: #fff;
+    // }
     &:after {
       display: block;
       font-family: $font-icon;
-      content: "\f067";
+      content: $fa-var-bars;
       position: absolute;
       right: 15px;
       top: 18px;
       font-size: 26px;
     }
-    &.active:after{
-      content: "\f068";
-    }
+    // &.active:after {
+    //   content: $fa-var-times;
+    // }
   }
 }
 

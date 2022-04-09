@@ -94,7 +94,7 @@
 
     <div id="header-blocks" class="container">
         <div class="row">
-            <div id="shop-logo" class="col-sm-4">
+            <div id="shop-logo" class="col-sm-4 hidden-xs">
                 <a href="{$link->getPageLink('index', true)|escape:'html':'UTF-8'}"
                    title="{$shop_name|escape:'html':'UTF-8'}">
                     <img class="img-responsive center-block" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"

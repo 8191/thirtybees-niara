@@ -54,6 +54,8 @@ function mobileInit() {
     $(this).toggleClass('active').parent().find('ul.menu-content').stop().slideToggle('medium');
     return false;
   });
+  // MFX: Prevent opening/closing the menu when clicking the logo
+  mCategoryGrover.find('a').on('click', function(e) { e.stopPropagation() });
 
   $('.sf-menu > li > ul').addClass('menu-mobile clearfix').parent().prepend('<span class="menu-mobile-grover"></span>');
 
