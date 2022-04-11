@@ -53,7 +53,7 @@
                         {include file="$tpl_dir./category-count.tpl"}
                     </div>
                 </h2>
-                <div class="content_sortPagiBar clearfix">
+                <div class="content_sortPagiBar clearfix hidden-xs">
                     <div class="form-inline sortPagiBar clearfix">
                         {include file="./product-sort.tpl"}
                         {include file="./nbr-product-page.tpl"}

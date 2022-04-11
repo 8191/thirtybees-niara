@@ -19,3 +19,9 @@
 .subcategory-title {
   margin: 0;
 }
+
+@media screen and (max-width: $screen-xs-max) {
+    body#category.category-2 section#category-subcategories {
+        display: none !important;
+    }
+}
