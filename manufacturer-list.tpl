@@ -43,7 +43,7 @@
 
     <ul id="manufacturers_list" class="list-grid row">
       {foreach from=$manufacturers item=manufacturer}
-        <li class="col-xs-6 col-sm-4 col-md-3">
+        <li class="col-sm-6 col-md-4 col-lg-3">
           <div class="thumbnail">
             <a href="{$link->getmanufacturerLink($manufacturer.id_manufacturer, $manufacturer.link_rewrite)|escape:'html':'UTF-8'}" title="{$manufacturer.name|escape:'html':'UTF-8'}">
               {if !empty($lazy_load)}
