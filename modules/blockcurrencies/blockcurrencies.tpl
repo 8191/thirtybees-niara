@@ -16,10 +16,11 @@
     </div>
 
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-      {l s='Currency: %s' sprintf=[$current_iso] mod='blockcurrencies'} <span class="caret"></span>
+      <span class="hidden-xs hidden-sm">{l s='Currency: %s' sprintf=[$current_iso] mod='blockcurrencies'} <span class="caret"></span></span>
+      <span class="visible-xs visible-sm">{$current_iso} <span class="caret"></span></span>
     </a>
 
-    <ul class="dropdown-menu">
+    <ul class="dropdown-menu dropdown-menu-right">
       {foreach from=$currencies key=k item=f_currency}
         {if strpos($f_currency.name, '('|cat:$f_currency.iso_code:')') === false}
           {assign var="currency_name" value={l s='%s (%s)' sprintf=[$f_currency.name, $f_currency.iso_code] mod='blockcurrencies'}}

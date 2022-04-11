@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*** ESSENTIAL STYLES ***/
 .sf-contener {
   clear: both;
@@ -64,12 +65,12 @@
   }
   .sf-menu > li span:after {
     font-family: "FontAwesome";
-    content: "\f067";
+    content: "";
     font-size: 20px;
     color: #ff6f61;
   }
   .sf-menu > li span.active:after {
-    content: "\f068";
+    content: "";
   }
 }
 
@@ -100,7 +101,7 @@
 }
 
 .sf-menu li li li a:before {
-  content: "\f0da";
+  content: "";
   display: inline-block;
   font-family: "FontAwesome";
   padding-right: 10px;
@@ -241,25 +242,16 @@ ul.sf-menu li li li.sfHover ul {
     text-transform: uppercase;
     color: #121212;
     display: block;
-    padding: 17px 20px;
-    background: #f4f4f4;
     position: relative;
-  }
-  .cat-title:hover {
-    background: #333;
-    color: #fff;
   }
   .cat-title:after {
     display: block;
     font-family: "FontAwesome";
-    content: "\f067";
+    content: "";
     position: absolute;
     right: 15px;
     top: 18px;
     font-size: 26px;
-  }
-  .cat-title.active:after {
-    content: "\f068";
   }
 }
 

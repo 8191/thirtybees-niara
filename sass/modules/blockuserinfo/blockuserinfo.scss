@@ -1,3 +1,9 @@
 .navbar-text {
   word-break:keep-all
 }
+@media (max-width: 767px) {
+  #blockuserinfo.open .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+  }
+}
